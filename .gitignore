@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Railway / Deployment
+.DS_Store
+*.log
+railway.json
+
+# Secrets (xavfsizlik)
+*.key
+*.pem
+config.py
+secrets.py
+
+# Temporary files
+*.tmp
+*.temp
